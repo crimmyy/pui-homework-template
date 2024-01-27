@@ -1,0 +1,26 @@
+body {
+    width: 1200px;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 400px;
+  }
+  
+  .product-gallery {
+    text-align: center;
+  }
+  
+  .product {
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .product:hover {
+    background-color: yellow;
+  }
+  
+  .product:hover .product-name {
+    font-weight: bold;
+  }
