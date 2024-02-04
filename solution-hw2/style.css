@@ -51,6 +51,8 @@ body {
 .product:hover .product-text {
   background-color: yellow;
   font-weight: bold;
+  margin-inline: 5px;
+  margin-top: 5px;
 }
 
 .product-text {
@@ -61,7 +63,7 @@ body {
   text-decoration: underline;
 }
 
-.bold {
+.cart-remove {
   font-weight: bold;
 }
 
@@ -115,4 +117,3 @@ body {
   border: 1px solid black;
   cursor: pointer;
 }
-
