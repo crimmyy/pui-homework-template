@@ -176,17 +176,31 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-grow: 2;
 }
 
 .page-flexitem1 {
+  flex-basis: 25%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   padding: 20px;
-  flex-grow: 1;
+  font: size 24px;
+}
+
+.flexbox-page-bottom {
+  font-size: 24px;
+  justify-content:flex-start;
+  padding-top:30px;
+}
+
+.flexbox-page-top {
+  padding-top: 40px;
+  font-size: 24px;
+  text-align:center;
+  padding:30px;
+  justify-content:flex-end;
 }
 
 .product-img {
@@ -210,18 +224,19 @@ body {
 
 .options-form select {
   display: block;
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
+  width: 80%;
   cursor: pointer;
-  
 }
 
 .options-form label,
 .options-form select,
 .price {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 80px;
+}
+
+.value-size {
+  font-size: 24px;
 }
 
 .price-and-cart {
@@ -232,15 +247,19 @@ body {
 .price {
   font-size: 24px;
   font-weight: bold;
+  margin: 10px;
+  padding: 10px 0px;
 }
 
 
 .add-to-cart {
   background-color: yellow;
   color: black;
-  padding: 5px 20px;
   border: 1px solid black;
   cursor: pointer;
+  font-weight: bold;
+  margin: 15px;
+  padding: 0px 30px;
 }
 
 .badge-pos {
@@ -254,9 +273,9 @@ body {
   background-color: red;
   color: white;
   border-radius: 50%;
-  padding: 6px 4px;
+  padding: 6px 6px;
   font-size: 20px;
   position: absolute;
   top: -15px;
-  right: -5px;
+  right: -10px;
 }
