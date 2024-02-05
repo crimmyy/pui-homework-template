@@ -7,41 +7,64 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img src="../assets/logo/logo-01.svg" alt="BunBun Bake Shop" class="header">
-        </a>
-        <div class="logo-underline"></div>
-        <div class="hee">
-            <a href="index.html" class="current2">PRODUCTS</a>
-            <a href="cart.html" class="current">CART</a>
-        </div>
-    </header>
-    <main>
-        <p class="hee">Shopping Cart</p>
-        <div class="product-gallery">
-            <div>
-                <img src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll" class="product-img2">
-                <div class="hee">
-                    <p id="ul" class="cart-remove"> Remove<p>
-                    <p>Original Cinnamon Roll</p>
-                    <p>Glazing: Keep original</p>
-                    <p>Pack Size: 1</p>
-                    <p>$2.49</p>
+        <div class = "flexbox-header">
+            <a href="index.html">
+                <img src="../assets/logo/logo-01.svg" alt="BunBun Bake Shop" class="header-cart">
+            </a>
+                <div class="underline-space">
+                    <div class="flexbox-htop">
+                        <a href="product.html" class="badge-pos">PRODUCTS</a>
+                        <a href="cart.html" class="badge-pos current">
+                            CART<span class="cart-badge">2</span>
+                        </a>
+                    </div>
+                        <div class="logo-underline"></div>
+                        <p class="flexbox-hbottom">Our hand-made cinnamon rolls</p>
+                    </div>
                 </div>
             </div>
-                <img src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="Double Chocolate Cinnamon Roll" class="product-img2">
-                <div class="hee">
-                    <p id="ul" class="cart-remove"> Remove</p>
-                    <p>Double Chocolate Cinnamon Roll</p>
-                    <p>Glazing: Sugar Milk</p>
-                    <p>Pack Size: 6</p>
-                    <p>$27.45</p>
-                </div>
         </div>
-        <div class="logo-underline"></div>
-        <div class="hee">
-            <p>Total: $29.94</p>
-            <button type="button" class="add-to-cart">Checkout</button>
+    </header>
+    
+    <main>
+        <div class="cart-container">
+            <div class="cart-flexbox">
+                    <img src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll" class="product-img-cart">
+                        <div class="cart-flexitem1">
+                            <p>Original Cinnamon Roll</p>
+                            <p>Glazing: Keep original</p>
+                            <p>Pack Size: 1</p>
+                        </div>
+                    <div class="cart-flexitem4">
+                        <p>$2.49</p>
+                    </div>
+            </div>
+            <p class="cart-flexitem3 bold-remove" id="ul">Remove</p>
+            <div class="cart-flexbox">
+                    <img src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="Double Chocolate Cinnamon Roll" class="product-img-cart">
+                        <div class="cart-flexitem2">
+                                <p>Double Chocolate Cinnamon Roll</p>
+                                <p>Glazing: Sugar Milk</p>
+                                <p>Pack Size: 6</p>
+                        </div>
+                    <div class="cart-flexitem4">
+                        <p>$27.45</p>
+                    </div>
+            </div>
+            <p class="cart-flexitem3 bold-remove" id="ul">Remove</p>
+            <div class="cart-flexbox">
+                <div class="logo-underline2"></div>
+            </div>
+        </div>
+            <div class="cart-flexbox">
+                <div class="cart-flexitem5">
+                    <p>Total:</p>
+                    <div class="cart-flexitem6">
+                        <p>$29.94</p>
+                        <button type="button" class="add-to-cart">Checkout</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </body>
