@@ -99,6 +99,9 @@ body {
 
 .product-highlight:hover{
   background-color: yellow;
+}
+
+.name-bold:hover{
   font-weight: bold;
 }
 
