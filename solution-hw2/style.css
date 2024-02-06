@@ -164,7 +164,7 @@ body {
 .cart-flexitem5 {
   display: flex;
   justify-content: flex-start;
-  padding-left: 560px;
+  padding-left: 720px;
 }
 
 .cart-flexitem6 {
@@ -172,7 +172,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-left: 160px;
+  margin-left: 150px;
 }
 
 .page-flexbox {
@@ -227,7 +227,7 @@ body {
 
 .options-form select {
   display: block;
-  width: 80%;
+  width: 90%;
   cursor: pointer;
 }
 
@@ -256,6 +256,15 @@ body {
 
 
 .add-to-cart {
+  background-color: yellow;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+
+.add-to-product {
   background-color: yellow;
   color: black;
   border: 1px solid black;
