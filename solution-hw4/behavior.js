@@ -42,8 +42,5 @@ function priceUpdate() {
     document.getElementById('total').textContent = `$${total.toFixed(2)}`;
 }
 
-
-document.addEventListener('DOMContentLoaded', function () {
-    optionBox();
-    priceUpdate();
-});
+addEventListener('load', optionBox);
+addEventListener('change', priceUpdate);
