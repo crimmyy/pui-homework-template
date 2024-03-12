@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Page - BunBun Bake Shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="rollsData.js" type="text/javascript"></script>
+    <script src="behavior.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <div class="flexbox-header">
+            <a href="index.html">
+                <img src="../assets/logo/logo-01.svg" alt="BunBun Bake Shop" class="header">
+            </a>
+            <div class="underline-space">
+                <div class="flexbox-htop">
+                    <a href="detail.html" class="current">PRODUCTS</a>
+                    <a href="cart.html" class="badge-pos" id = "no-ul">
+                        CART<span class="cart-badge"></span>
+                    </a>
+                </div>
+                <div class="logo-underline"></div>
+                <p class="flexbox-hbottom">Our hand-made cinnamon rolls</p>
+            </div>
+        </div>
+    </header>
+    <main> 
+        <div class="page-flexbox">
+            <img src="../assets/products/original-cinnamon-roll.jpg" alt="Cinnamon Roll" class="product-page-img" id="rollImage">
+            <div class="page-flexitem1">
+                <p class="flexbox-page-bottom" id="rollDescription">Customize our delicious, hand-making cinnamons to your liking!</p>
+                <form class="options-form">
+                    <label for="flavors" class="flexbox-page-bottom price-and-cart">Glazing:</label>
+                    <select class="value-size" id="flavors" onchange="priceUpdate()">
+                    </select>
+                    <label for="sizes" class="flexbox-page-bottom">Pack Size:</label>
+                    <select class="value-size" id="sizes" onchange="priceUpdate()">
+                    </select>
+                </form>
+                <div class="price-and-cart flexbox-page-top">
+                    <p id="total" class="price">a billion dollars</p>
+                    <button type="button" class="add-to-product" id="add-to-cart">ADD TO CART</button>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
